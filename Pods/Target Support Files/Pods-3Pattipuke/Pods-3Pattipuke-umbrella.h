@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_3Patti_pukeVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_3Patti_pukeVersionString[];
+FOUNDATION_EXPORT double Pods_3PattipukeVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_3PattipukeVersionString[];
 
