@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566F81F711EC140BB5F5555F /* Pods_3Patti_puke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87808EA615DA1F5A80AABB2 /* Pods_3Patti_puke.framework */; };
+		C69AD9592BB10D9500B79503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C69AD9582BB10D9500B79503 /* AppDelegate.m */; };
+		C69AD95F2BB10D9500B79503 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69AD95E2BB10D9500B79503 /* ViewController.m */; };
+		C69AD9622BB10D9500B79503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69AD9602BB10D9500B79503 /* Main.storyboard */; };
+		C69AD9642BB10D9700B79503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69AD9632BB10D9700B79503 /* Assets.xcassets */; };
+		C69AD9672BB10D9700B79503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69AD9652BB10D9700B79503 /* LaunchScreen.storyboard */; };
+		C69AD96A2BB10D9700B79503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C69AD9692BB10D9700B79503 /* main.m */; };
+		C69AD9742BB10D9800B79503 /* _Patti_pukeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C69AD9732BB10D9800B79503 /* _Patti_pukeTests.m */; };
+		C69AD97E2BB10D9800B79503 /* _Patti_pukeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C69AD97D2BB10D9800B79503 /* _Patti_pukeUITests.m */; };
+		C69AD9802BB10D9800B79503 /* _Patti_pukeUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C69AD97F2BB10D9800B79503 /* _Patti_pukeUITestsLaunchTests.m */; };
+		C69AD98E2BB1174700B79503 /* imageview.m in Sources */ = {isa = PBXBuildFile; fileRef = C69AD98D2BB1174700B79503 /* imageview.m */; };
+		C6BA18D82BBE42B40045B400 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA18D62BBE42B40045B400 /* HomeViewController.m */; };
+		C6BA18D92BBE42B40045B400 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BA18D72BBE42B40045B400 /* HomeViewController.xib */; };
+		C6BA18DD2BBE69F50045B400 /* DifficultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA18DB2BBE69F50045B400 /* DifficultViewController.m */; };
+		C6BA18DE2BBE69F50045B400 /* DifficultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BA18DC2BBE69F50045B400 /* DifficultViewController.xib */; };
+		C6BA18E22BBE6FD30045B400 /* HardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BA18E02BBE6FD30045B400 /* HardViewController.m */; };
+		C6BA18E32BBE6FD30045B400 /* HardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BA18E12BBE6FD30045B400 /* HardViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C69AD9702BB10D9800B79503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C69AD94C2BB10D9500B79503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C69AD9532BB10D9500B79503;
+			remoteInfo = "3Patti puke";
+		};
+		C69AD97A2BB10D9800B79503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C69AD94C2BB10D9500B79503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C69AD9532BB10D9500B79503;
+			remoteInfo = "3Patti puke";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1309835BDAC549C84ABA4B2F /* Pods-3Patti puke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3Patti puke.debug.xcconfig"; path = "Target Support Files/Pods-3Patti puke/Pods-3Patti puke.debug.xcconfig"; sourceTree = "<group>"; };
+		C69AD9542BB10D9500B79503 /* 3Patti puke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3Patti puke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69AD9572BB10D9500B79503 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C69AD9582BB10D9500B79503 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C69AD95D2BB10D9500B79503 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C69AD95E2BB10D9500B79503 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C69AD9612BB10D9500B79503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C69AD9632BB10D9700B79503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C69AD9662BB10D9700B79503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C69AD9682BB10D9700B79503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69AD9692BB10D9700B79503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C69AD96F2BB10D9800B79503 /* 3Patti pukeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3Patti pukeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69AD9732BB10D9800B79503 /* _Patti_pukeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _Patti_pukeTests.m; sourceTree = "<group>"; };
+		C69AD9792BB10D9800B79503 /* 3Patti pukeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3Patti pukeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69AD97D2BB10D9800B79503 /* _Patti_pukeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _Patti_pukeUITests.m; sourceTree = "<group>"; };
+		C69AD97F2BB10D9800B79503 /* _Patti_pukeUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _Patti_pukeUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C69AD98C2BB1174700B79503 /* imageview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imageview.h; sourceTree = "<group>"; };
+		C69AD98D2BB1174700B79503 /* imageview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageview.m; sourceTree = "<group>"; };
+		C6BA18D52BBE42B40045B400 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C6BA18D62BBE42B40045B400 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C6BA18D72BBE42B40045B400 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C6BA18DA2BBE69F50045B400 /* DifficultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifficultViewController.h; sourceTree = "<group>"; };
+		C6BA18DB2BBE69F50045B400 /* DifficultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifficultViewController.m; sourceTree = "<group>"; };
+		C6BA18DC2BBE69F50045B400 /* DifficultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DifficultViewController.xib; sourceTree = "<group>"; };
+		C6BA18DF2BBE6FD30045B400 /* HardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HardViewController.h; sourceTree = "<group>"; };
+		C6BA18E02BBE6FD30045B400 /* HardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HardViewController.m; sourceTree = "<group>"; };
+		C6BA18E12BBE6FD30045B400 /* HardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HardViewController.xib; sourceTree = "<group>"; };
+		D87808EA615DA1F5A80AABB2 /* Pods_3Patti_puke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3Patti_puke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E895D76B59ABE89DC4C3BC2D /* Pods-3Patti puke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3Patti puke.release.xcconfig"; path = "Target Support Files/Pods-3Patti puke/Pods-3Patti puke.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C69AD9512BB10D9500B79503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566F81F711EC140BB5F5555F /* Pods_3Patti_puke.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69AD96C2BB10D9800B79503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69AD9762BB10D9800B79503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FC6A5EDEB8A5245FFFEDB1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1309835BDAC549C84ABA4B2F /* Pods-3Patti puke.debug.xcconfig */,
+				E895D76B59ABE89DC4C3BC2D /* Pods-3Patti puke.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B70D891DBED36366638784BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D87808EA615DA1F5A80AABB2 /* Pods_3Patti_puke.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C69AD94B2BB10D9500B79503 = {
+			isa = PBXGroup;
+			children = (
+				C69AD9562BB10D9500B79503 /* 3Patti puke */,
+				C69AD9722BB10D9800B79503 /* 3Patti pukeTests */,
+				C69AD97C2BB10D9800B79503 /* 3Patti pukeUITests */,
+				C69AD9552BB10D9500B79503 /* Products */,
+				9FC6A5EDEB8A5245FFFEDB1C /* Pods */,
+				B70D891DBED36366638784BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C69AD9552BB10D9500B79503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C69AD9542BB10D9500B79503 /* 3Patti puke.app */,
+				C69AD96F2BB10D9800B79503 /* 3Patti pukeTests.xctest */,
+				C69AD9792BB10D9800B79503 /* 3Patti pukeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C69AD9562BB10D9500B79503 /* 3Patti puke */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA18D52BBE42B40045B400 /* HomeViewController.h */,
+				C6BA18D62BBE42B40045B400 /* HomeViewController.m */,
+				C6BA18D72BBE42B40045B400 /* HomeViewController.xib */,
+				C69AD9572BB10D9500B79503 /* AppDelegate.h */,
+				C69AD9582BB10D9500B79503 /* AppDelegate.m */,
+				C69AD95D2BB10D9500B79503 /* ViewController.h */,
+				C69AD95E2BB10D9500B79503 /* ViewController.m */,
+				C69AD9602BB10D9500B79503 /* Main.storyboard */,
+				C69AD9632BB10D9700B79503 /* Assets.xcassets */,
+				C69AD9652BB10D9700B79503 /* LaunchScreen.storyboard */,
+				C69AD9682BB10D9700B79503 /* Info.plist */,
+				C69AD9692BB10D9700B79503 /* main.m */,
+				C69AD98C2BB1174700B79503 /* imageview.h */,
+				C69AD98D2BB1174700B79503 /* imageview.m */,
+				C6BA18DA2BBE69F50045B400 /* DifficultViewController.h */,
+				C6BA18DB2BBE69F50045B400 /* DifficultViewController.m */,
+				C6BA18DC2BBE69F50045B400 /* DifficultViewController.xib */,
+				C6BA18DF2BBE6FD30045B400 /* HardViewController.h */,
+				C6BA18E02BBE6FD30045B400 /* HardViewController.m */,
+				C6BA18E12BBE6FD30045B400 /* HardViewController.xib */,
+			);
+			path = "3Patti puke";
+			sourceTree = "<group>";
+		};
+		C69AD9722BB10D9800B79503 /* 3Patti pukeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C69AD9732BB10D9800B79503 /* _Patti_pukeTests.m */,
+			);
+			path = "3Patti pukeTests";
+			sourceTree = "<group>";
+		};
+		C69AD97C2BB10D9800B79503 /* 3Patti pukeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C69AD97D2BB10D9800B79503 /* _Patti_pukeUITests.m */,
+				C69AD97F2BB10D9800B79503 /* _Patti_pukeUITestsLaunchTests.m */,
+			);
+			path = "3Patti pukeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C69AD9532BB10D9500B79503 /* 3Patti puke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69AD9832BB10D9800B79503 /* Build configuration list for PBXNativeTarget "3Patti puke" */;
+			buildPhases = (
+				479C8758799F955C403315A3 /* [CP] Check Pods Manifest.lock */,
+				C69AD9502BB10D9500B79503 /* Sources */,
+				C69AD9512BB10D9500B79503 /* Frameworks */,
+				C69AD9522BB10D9500B79503 /* Resources */,
+				A7F62013417FEE1ACAB13E91 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3Patti puke";
+			productName = "3Patti puke";
+			productReference = C69AD9542BB10D9500B79503 /* 3Patti puke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C69AD96E2BB10D9800B79503 /* 3Patti pukeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69AD9862BB10D9800B79503 /* Build configuration list for PBXNativeTarget "3Patti pukeTests" */;
+			buildPhases = (
+				C69AD96B2BB10D9800B79503 /* Sources */,
+				C69AD96C2BB10D9800B79503 /* Frameworks */,
+				C69AD96D2BB10D9800B79503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C69AD9712BB10D9800B79503 /* PBXTargetDependency */,
+			);
+			name = "3Patti pukeTests";
+			productName = "3Patti pukeTests";
+			productReference = C69AD96F2BB10D9800B79503 /* 3Patti pukeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C69AD9782BB10D9800B79503 /* 3Patti pukeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69AD9892BB10D9800B79503 /* Build configuration list for PBXNativeTarget "3Patti pukeUITests" */;
+			buildPhases = (
+				C69AD9752BB10D9800B79503 /* Sources */,
+				C69AD9762BB10D9800B79503 /* Frameworks */,
+				C69AD9772BB10D9800B79503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C69AD97B2BB10D9800B79503 /* PBXTargetDependency */,
+			);
+			name = "3Patti pukeUITests";
+			productName = "3Patti pukeUITests";
+			productReference = C69AD9792BB10D9800B79503 /* 3Patti pukeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C69AD94C2BB10D9500B79503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C69AD9532BB10D9500B79503 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C69AD96E2BB10D9800B79503 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C69AD9532BB10D9500B79503;
+					};
+					C69AD9782BB10D9800B79503 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C69AD9532BB10D9500B79503;
+					};
+				};
+			};
+			buildConfigurationList = C69AD94F2BB10D9500B79503 /* Build configuration list for PBXProject "3Patti puke" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C69AD94B2BB10D9500B79503;
+			productRefGroup = C69AD9552BB10D9500B79503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C69AD9532BB10D9500B79503 /* 3Patti puke */,
+				C69AD96E2BB10D9800B79503 /* 3Patti pukeTests */,
+				C69AD9782BB10D9800B79503 /* 3Patti pukeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C69AD9522BB10D9500B79503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BA18DE2BBE69F50045B400 /* DifficultViewController.xib in Resources */,
+				C69AD9672BB10D9700B79503 /* LaunchScreen.storyboard in Resources */,
+				C69AD9642BB10D9700B79503 /* Assets.xcassets in Resources */,
+				C69AD9622BB10D9500B79503 /* Main.storyboard in Resources */,
+				C6BA18D92BBE42B40045B400 /* HomeViewController.xib in Resources */,
+				C6BA18E32BBE6FD30045B400 /* HardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69AD96D2BB10D9800B79503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69AD9772BB10D9800B79503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		479C8758799F955C403315A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3Patti puke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F62013417FEE1ACAB13E91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3Patti puke/Pods-3Patti puke-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3Patti puke/Pods-3Patti puke-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-3Patti puke/Pods-3Patti puke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C69AD9502BB10D9500B79503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BA18E22BBE6FD30045B400 /* HardViewController.m in Sources */,
+				C69AD98E2BB1174700B79503 /* imageview.m in Sources */,
+				C69AD95F2BB10D9500B79503 /* ViewController.m in Sources */,
+				C69AD9592BB10D9500B79503 /* AppDelegate.m in Sources */,
+				C6BA18D82BBE42B40045B400 /* HomeViewController.m in Sources */,
+				C69AD96A2BB10D9700B79503 /* main.m in Sources */,
+				C6BA18DD2BBE69F50045B400 /* DifficultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69AD96B2BB10D9800B79503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69AD9742BB10D9800B79503 /* _Patti_pukeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69AD9752BB10D9800B79503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69AD9802BB10D9800B79503 /* _Patti_pukeUITestsLaunchTests.m in Sources */,
+				C69AD97E2BB10D9800B79503 /* _Patti_pukeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C69AD9712BB10D9800B79503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C69AD9532BB10D9500B79503 /* 3Patti puke */;
+			targetProxy = C69AD9702BB10D9800B79503 /* PBXContainerItemProxy */;
+		};
+		C69AD97B2BB10D9800B79503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C69AD9532BB10D9500B79503 /* 3Patti puke */;
+			targetProxy = C69AD97A2BB10D9800B79503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C69AD9602BB10D9500B79503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C69AD9612BB10D9500B79503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C69AD9652BB10D9700B79503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C69AD9662BB10D9700B79503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C69AD9812BB10D9800B79503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C69AD9822BB10D9800B79503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C69AD9842BB10D9800B79503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1309835BDAC549C84ABA4B2F /* Pods-3Patti puke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "3Patti puke/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Patti Synthetic Poker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokerzjjj.b62;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C69AD9852BB10D9800B79503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E895D76B59ABE89DC4C3BC2D /* Pods-3Patti puke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "3Patti puke/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Patti Synthetic Poker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokerzjjj.b62;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C69AD9872BB10D9800B79503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.3patti.cengje.com.-Patti-pukeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3Patti puke.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3Patti puke";
+			};
+			name = Debug;
+		};
+		C69AD9882BB10D9800B79503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.3patti.cengje.com.-Patti-pukeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3Patti puke.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3Patti puke";
+			};
+			name = Release;
+		};
+		C69AD98A2BB10D9800B79503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.3patti.cengje.com.-Patti-pukeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3Patti puke";
+			};
+			name = Debug;
+		};
+		C69AD98B2BB10D9800B79503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.3patti.cengje.com.-Patti-pukeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3Patti puke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C69AD94F2BB10D9500B79503 /* Build configuration list for PBXProject "3Patti puke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69AD9812BB10D9800B79503 /* Debug */,
+				C69AD9822BB10D9800B79503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69AD9832BB10D9800B79503 /* Build configuration list for PBXNativeTarget "3Patti puke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69AD9842BB10D9800B79503 /* Debug */,
+				C69AD9852BB10D9800B79503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69AD9862BB10D9800B79503 /* Build configuration list for PBXNativeTarget "3Patti pukeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69AD9872BB10D9800B79503 /* Debug */,
+				C69AD9882BB10D9800B79503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69AD9892BB10D9800B79503 /* Build configuration list for PBXNativeTarget "3Patti pukeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69AD98A2BB10D9800B79503 /* Debug */,
+				C69AD98B2BB10D9800B79503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C69AD94C2BB10D9500B79503 /* Project object */;
+}
