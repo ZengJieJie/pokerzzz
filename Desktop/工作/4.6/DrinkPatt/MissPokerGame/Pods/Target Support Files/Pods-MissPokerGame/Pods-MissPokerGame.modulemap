@@ -1,0 +1,6 @@
+framework module Pods_MissPokerGame {
+  umbrella header "Pods-MissPokerGame-umbrella.h"
+
+  export *
+  module * { export * }
+}
