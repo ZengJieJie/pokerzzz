@@ -1,0 +1,48 @@
+workflows:
+  ios-automatic-code-signing:
+    name: iOS automatic code signing
+    instance_type: mac_mini_m1
+    environment:
+      groups:
+        - appstore_credentials
+        - ios_config
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
+        script: |
+          keychain initialize
+      - name: Fetch signing files
+        script: |
+          app-store-connect fetch-signing-files $BUNDLE_ID --type IOS_APP_STORE --create --verbose
+      - name: Use system default keychain
+        script: |
+          keychain add-certificates --verbose
+      - name: Install pods
+        script: |
+          cd $CM_BUILD_DIR
+          pod install --repo-update --verbose
+      - name: Set up code signing settings on Xcode project
+        script: |
+          xcode-project use-profiles --verbose
+      - name: Increment build number
+        script: |
+          cd $CM_BUILD_DIR
+          agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APP_ID") + 1))
+      - name: Build ipa for distribution
+        script: |
+          xcode-project build-ipa --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME" --verbose
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      app_store_connect: # https://docs.codemagic.io/publishing-yaml/distribution
+        submit_to_app_store: true
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY # Contents of the API key, can also reference environment variable such as $APP_STORE_CONNECT_PRIVATE_KEY
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER # Alphanumeric value that identifies the API key, can also reference environment variable such as $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID # Alphanumeric value that identifies who created the API key, can also reference environment variable such as $APP_STORE_CONNECT_ISSUER_ID
+      email:
+        recipients:
+          - $EMAIL_1
+        notify:
+          success: true
+          failure: true
