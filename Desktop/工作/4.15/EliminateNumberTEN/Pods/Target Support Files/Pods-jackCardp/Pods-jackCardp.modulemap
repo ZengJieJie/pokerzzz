@@ -1,0 +1,6 @@
+framework module Pods_jackCardp {
+  umbrella header "Pods-jackCardp-umbrella.h"
+
+  export *
+  module * { export * }
+}

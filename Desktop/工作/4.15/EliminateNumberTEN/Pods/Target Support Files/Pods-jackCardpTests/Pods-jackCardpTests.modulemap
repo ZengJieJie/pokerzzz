@@ -1,0 +1,6 @@
+framework module Pods_jackCardpTests {
+  umbrella header "Pods-jackCardpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

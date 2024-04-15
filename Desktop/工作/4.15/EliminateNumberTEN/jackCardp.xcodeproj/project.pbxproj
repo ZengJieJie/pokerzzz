@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B1AF19D862719C3A8DFEC7 /* Pods_jackCardp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F0DBCF0CA7955FFCB5E559 /* Pods_jackCardp.framework */; };
+		12BF0D685547144B25C128CD /* Pods_jackCardpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC152D277170E1314F3E22AA /* Pods_jackCardpTests.framework */; };
+		B5AE36200D58CB8F1F7A4783 /* Pods_jackCardp_jackCardpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC093AA806F2A57DA648B420 /* Pods_jackCardp_jackCardpUITests.framework */; };
+		CCA807402BC96DCC00FA33B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA8073F2BC96DCC00FA33B0 /* AppDelegate.m */; };
+		CCA807432BC96DCC00FA33B0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA807422BC96DCC00FA33B0 /* SceneDelegate.m */; };
+		CCA807462BC96DCC00FA33B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA807452BC96DCC00FA33B0 /* ViewController.m */; };
+		CCA807492BC96DCC00FA33B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA807472BC96DCC00FA33B0 /* Main.storyboard */; };
+		CCA8074B2BC96DCD00FA33B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA8074A2BC96DCD00FA33B0 /* Assets.xcassets */; };
+		CCA8074E2BC96DCD00FA33B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA8074C2BC96DCD00FA33B0 /* LaunchScreen.storyboard */; };
+		CCA807512BC96DCD00FA33B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA807502BC96DCD00FA33B0 /* main.m */; };
+		CCA8075B2BC96DCD00FA33B0 /* jackCardpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA8075A2BC96DCD00FA33B0 /* jackCardpTests.m */; };
+		CCA807652BC96DCD00FA33B0 /* jackCardpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA807642BC96DCD00FA33B0 /* jackCardpUITests.m */; };
+		CCA807672BC96DCD00FA33B0 /* jackCardpUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA807662BC96DCD00FA33B0 /* jackCardpUITestsLaunchTests.m */; };
+		CCA807762BCA116800FA33B0 /* GameHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA807752BCA116800FA33B0 /* GameHomeViewController.m */; };
+		CCA807792BCA2D5900FA33B0 /* GameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA807782BCA2D5900FA33B0 /* GameBoard.m */; };
+		CCA8077C2BCA6A3200FA33B0 /* EliminationRule.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA8077B2BCA6A3200FA33B0 /* EliminationRule.m */; };
+		CCA8077F2BCB7A6200FA33B0 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA8077E2BCB7A6200FA33B0 /* CustomAlertView.m */; };
+		CCA807822BCC323000FA33B0 /* introViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA807812BCC323000FA33B0 /* introViewController.m */; };
+		CCA807882BCC35FF00FA33B0 /* HistoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA807872BCC35FF00FA33B0 /* HistoryItem.m */; };
+		CCA8078B2BCC363200FA33B0 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA8078A2BCC363200FA33B0 /* HistoryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA807572BC96DCD00FA33B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA807332BC96DCC00FA33B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA8073A2BC96DCC00FA33B0;
+			remoteInfo = jackCardp;
+		};
+		CCA807612BC96DCD00FA33B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA807332BC96DCC00FA33B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA8073A2BC96DCC00FA33B0;
+			remoteInfo = jackCardp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		106D916FE3B3D67381352152 /* Pods-jackCardpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jackCardpTests.debug.xcconfig"; path = "Target Support Files/Pods-jackCardpTests/Pods-jackCardpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DC28E50826F5C225CB4B2E3 /* Pods-jackCardp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jackCardp.release.xcconfig"; path = "Target Support Files/Pods-jackCardp/Pods-jackCardp.release.xcconfig"; sourceTree = "<group>"; };
+		3EA74A679F6393A7C6ADED9B /* Pods-jackCardp-jackCardpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jackCardp-jackCardpUITests.debug.xcconfig"; path = "Target Support Files/Pods-jackCardp-jackCardpUITests/Pods-jackCardp-jackCardpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A8F0025E08DB55FE311CEF5 /* Pods-jackCardp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jackCardp.debug.xcconfig"; path = "Target Support Files/Pods-jackCardp/Pods-jackCardp.debug.xcconfig"; sourceTree = "<group>"; };
+		6234323D0C35E464D8F956ED /* Pods-jackCardpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jackCardpTests.release.xcconfig"; path = "Target Support Files/Pods-jackCardpTests/Pods-jackCardpTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC093AA806F2A57DA648B420 /* Pods_jackCardp_jackCardpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jackCardp_jackCardpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA8073B2BC96DCC00FA33B0 /* jackCardp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jackCardp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA8073E2BC96DCC00FA33B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCA8073F2BC96DCC00FA33B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCA807412BC96DCC00FA33B0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CCA807422BC96DCC00FA33B0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CCA807442BC96DCC00FA33B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCA807452BC96DCC00FA33B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCA807482BC96DCC00FA33B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA8074A2BC96DCD00FA33B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA8074D2BC96DCD00FA33B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCA8074F2BC96DCD00FA33B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA807502BC96DCD00FA33B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA807562BC96DCD00FA33B0 /* jackCardpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jackCardpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA8075A2BC96DCD00FA33B0 /* jackCardpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jackCardpTests.m; sourceTree = "<group>"; };
+		CCA807602BC96DCD00FA33B0 /* jackCardpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jackCardpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA807642BC96DCD00FA33B0 /* jackCardpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jackCardpUITests.m; sourceTree = "<group>"; };
+		CCA807662BC96DCD00FA33B0 /* jackCardpUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jackCardpUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CCA807742BCA116800FA33B0 /* GameHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameHomeViewController.h; sourceTree = "<group>"; };
+		CCA807752BCA116800FA33B0 /* GameHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameHomeViewController.m; sourceTree = "<group>"; };
+		CCA807772BCA2D5900FA33B0 /* GameBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameBoard.h; sourceTree = "<group>"; };
+		CCA807782BCA2D5900FA33B0 /* GameBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameBoard.m; sourceTree = "<group>"; };
+		CCA8077A2BCA6A3200FA33B0 /* EliminationRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EliminationRule.h; sourceTree = "<group>"; };
+		CCA8077B2BCA6A3200FA33B0 /* EliminationRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EliminationRule.m; sourceTree = "<group>"; };
+		CCA8077D2BCB7A6200FA33B0 /* CustomAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		CCA8077E2BCB7A6200FA33B0 /* CustomAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		CCA807802BCC323000FA33B0 /* introViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = introViewController.h; sourceTree = "<group>"; };
+		CCA807812BCC323000FA33B0 /* introViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = introViewController.m; sourceTree = "<group>"; };
+		CCA807862BCC35FF00FA33B0 /* HistoryItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryItem.h; sourceTree = "<group>"; };
+		CCA807872BCC35FF00FA33B0 /* HistoryItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryItem.m; sourceTree = "<group>"; };
+		CCA807892BCC363200FA33B0 /* HistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		CCA8078A2BCC363200FA33B0 /* HistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		D139632BC4E5A936E923F93D /* Pods-jackCardp-jackCardpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jackCardp-jackCardpUITests.release.xcconfig"; path = "Target Support Files/Pods-jackCardp-jackCardpUITests/Pods-jackCardp-jackCardpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9F0DBCF0CA7955FFCB5E559 /* Pods_jackCardp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jackCardp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC152D277170E1314F3E22AA /* Pods_jackCardpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jackCardpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA807382BC96DCC00FA33B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B1AF19D862719C3A8DFEC7 /* Pods_jackCardp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA807532BC96DCD00FA33B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BF0D685547144B25C128CD /* Pods_jackCardpTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA8075D2BC96DCD00FA33B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AE36200D58CB8F1F7A4783 /* Pods_jackCardp_jackCardpUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		738D8705EDD7CE8BDA0762AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0DBCF0CA7955FFCB5E559 /* Pods_jackCardp.framework */,
+				AC093AA806F2A57DA648B420 /* Pods_jackCardp_jackCardpUITests.framework */,
+				FC152D277170E1314F3E22AA /* Pods_jackCardpTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB324D6C7B7FDCB97124ABDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A8F0025E08DB55FE311CEF5 /* Pods-jackCardp.debug.xcconfig */,
+				1DC28E50826F5C225CB4B2E3 /* Pods-jackCardp.release.xcconfig */,
+				3EA74A679F6393A7C6ADED9B /* Pods-jackCardp-jackCardpUITests.debug.xcconfig */,
+				D139632BC4E5A936E923F93D /* Pods-jackCardp-jackCardpUITests.release.xcconfig */,
+				106D916FE3B3D67381352152 /* Pods-jackCardpTests.debug.xcconfig */,
+				6234323D0C35E464D8F956ED /* Pods-jackCardpTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CCA807322BC96DCC00FA33B0 = {
+			isa = PBXGroup;
+			children = (
+				CCA8073D2BC96DCC00FA33B0 /* jackCardp */,
+				CCA807592BC96DCD00FA33B0 /* jackCardpTests */,
+				CCA807632BC96DCD00FA33B0 /* jackCardpUITests */,
+				CCA8073C2BC96DCC00FA33B0 /* Products */,
+				AB324D6C7B7FDCB97124ABDA /* Pods */,
+				738D8705EDD7CE8BDA0762AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA8073C2BC96DCC00FA33B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8073B2BC96DCC00FA33B0 /* jackCardp.app */,
+				CCA807562BC96DCD00FA33B0 /* jackCardpTests.xctest */,
+				CCA807602BC96DCD00FA33B0 /* jackCardpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA8073D2BC96DCC00FA33B0 /* jackCardp */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8077D2BCB7A6200FA33B0 /* CustomAlertView.h */,
+				CCA8077E2BCB7A6200FA33B0 /* CustomAlertView.m */,
+				CCA8073E2BC96DCC00FA33B0 /* AppDelegate.h */,
+				CCA8073F2BC96DCC00FA33B0 /* AppDelegate.m */,
+				CCA807412BC96DCC00FA33B0 /* SceneDelegate.h */,
+				CCA807422BC96DCC00FA33B0 /* SceneDelegate.m */,
+				CCA807442BC96DCC00FA33B0 /* ViewController.h */,
+				CCA807452BC96DCC00FA33B0 /* ViewController.m */,
+				CCA807472BC96DCC00FA33B0 /* Main.storyboard */,
+				CCA8074A2BC96DCD00FA33B0 /* Assets.xcassets */,
+				CCA8074C2BC96DCD00FA33B0 /* LaunchScreen.storyboard */,
+				CCA8074F2BC96DCD00FA33B0 /* Info.plist */,
+				CCA807502BC96DCD00FA33B0 /* main.m */,
+				CCA807742BCA116800FA33B0 /* GameHomeViewController.h */,
+				CCA807752BCA116800FA33B0 /* GameHomeViewController.m */,
+				CCA807772BCA2D5900FA33B0 /* GameBoard.h */,
+				CCA807782BCA2D5900FA33B0 /* GameBoard.m */,
+				CCA8077A2BCA6A3200FA33B0 /* EliminationRule.h */,
+				CCA8077B2BCA6A3200FA33B0 /* EliminationRule.m */,
+				CCA807802BCC323000FA33B0 /* introViewController.h */,
+				CCA807812BCC323000FA33B0 /* introViewController.m */,
+				CCA807862BCC35FF00FA33B0 /* HistoryItem.h */,
+				CCA807872BCC35FF00FA33B0 /* HistoryItem.m */,
+				CCA807892BCC363200FA33B0 /* HistoryViewController.h */,
+				CCA8078A2BCC363200FA33B0 /* HistoryViewController.m */,
+			);
+			path = jackCardp;
+			sourceTree = "<group>";
+		};
+		CCA807592BC96DCD00FA33B0 /* jackCardpTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8075A2BC96DCD00FA33B0 /* jackCardpTests.m */,
+			);
+			path = jackCardpTests;
+			sourceTree = "<group>";
+		};
+		CCA807632BC96DCD00FA33B0 /* jackCardpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA807642BC96DCD00FA33B0 /* jackCardpUITests.m */,
+				CCA807662BC96DCD00FA33B0 /* jackCardpUITestsLaunchTests.m */,
+			);
+			path = jackCardpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA8073A2BC96DCC00FA33B0 /* jackCardp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA8076A2BC96DCD00FA33B0 /* Build configuration list for PBXNativeTarget "jackCardp" */;
+			buildPhases = (
+				B50DDEB879453B6D082E0DCA /* [CP] Check Pods Manifest.lock */,
+				CCA807372BC96DCC00FA33B0 /* Sources */,
+				CCA807382BC96DCC00FA33B0 /* Frameworks */,
+				CCA807392BC96DCC00FA33B0 /* Resources */,
+				304683FC82225FD6DA79EEE3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jackCardp;
+			productName = jackCardp;
+			productReference = CCA8073B2BC96DCC00FA33B0 /* jackCardp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA807552BC96DCD00FA33B0 /* jackCardpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA8076D2BC96DCD00FA33B0 /* Build configuration list for PBXNativeTarget "jackCardpTests" */;
+			buildPhases = (
+				6D7D1B3D562604FD4BCF9C45 /* [CP] Check Pods Manifest.lock */,
+				CCA807522BC96DCD00FA33B0 /* Sources */,
+				CCA807532BC96DCD00FA33B0 /* Frameworks */,
+				CCA807542BC96DCD00FA33B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA807582BC96DCD00FA33B0 /* PBXTargetDependency */,
+			);
+			name = jackCardpTests;
+			productName = jackCardpTests;
+			productReference = CCA807562BC96DCD00FA33B0 /* jackCardpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCA8075F2BC96DCD00FA33B0 /* jackCardpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA807702BC96DCD00FA33B0 /* Build configuration list for PBXNativeTarget "jackCardpUITests" */;
+			buildPhases = (
+				8C3108CAD08F2DF44EF8195B /* [CP] Check Pods Manifest.lock */,
+				CCA8075C2BC96DCD00FA33B0 /* Sources */,
+				CCA8075D2BC96DCD00FA33B0 /* Frameworks */,
+				CCA8075E2BC96DCD00FA33B0 /* Resources */,
+				6DEF54118007B227BCD65FB8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA807622BC96DCD00FA33B0 /* PBXTargetDependency */,
+			);
+			name = jackCardpUITests;
+			productName = jackCardpUITests;
+			productReference = CCA807602BC96DCD00FA33B0 /* jackCardpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA807332BC96DCC00FA33B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CCA8073A2BC96DCC00FA33B0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CCA807552BC96DCD00FA33B0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CCA8073A2BC96DCC00FA33B0;
+					};
+					CCA8075F2BC96DCD00FA33B0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CCA8073A2BC96DCC00FA33B0;
+					};
+				};
+			};
+			buildConfigurationList = CCA807362BC96DCC00FA33B0 /* Build configuration list for PBXProject "jackCardp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA807322BC96DCC00FA33B0;
+			productRefGroup = CCA8073C2BC96DCC00FA33B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA8073A2BC96DCC00FA33B0 /* jackCardp */,
+				CCA807552BC96DCD00FA33B0 /* jackCardpTests */,
+				CCA8075F2BC96DCD00FA33B0 /* jackCardpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA807392BC96DCC00FA33B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA8074E2BC96DCD00FA33B0 /* LaunchScreen.storyboard in Resources */,
+				CCA8074B2BC96DCD00FA33B0 /* Assets.xcassets in Resources */,
+				CCA807492BC96DCC00FA33B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA807542BC96DCD00FA33B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA8075E2BC96DCD00FA33B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304683FC82225FD6DA79EEE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jackCardp/Pods-jackCardp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jackCardp/Pods-jackCardp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jackCardp/Pods-jackCardp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7D1B3D562604FD4BCF9C45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jackCardpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DEF54118007B227BCD65FB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jackCardp-jackCardpUITests/Pods-jackCardp-jackCardpUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jackCardp-jackCardpUITests/Pods-jackCardp-jackCardpUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jackCardp-jackCardpUITests/Pods-jackCardp-jackCardpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3108CAD08F2DF44EF8195B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jackCardp-jackCardpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B50DDEB879453B6D082E0DCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jackCardp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA807372BC96DCC00FA33B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA807762BCA116800FA33B0 /* GameHomeViewController.m in Sources */,
+				CCA807882BCC35FF00FA33B0 /* HistoryItem.m in Sources */,
+				CCA8077C2BCA6A3200FA33B0 /* EliminationRule.m in Sources */,
+				CCA8077F2BCB7A6200FA33B0 /* CustomAlertView.m in Sources */,
+				CCA8078B2BCC363200FA33B0 /* HistoryViewController.m in Sources */,
+				CCA807462BC96DCC00FA33B0 /* ViewController.m in Sources */,
+				CCA807822BCC323000FA33B0 /* introViewController.m in Sources */,
+				CCA807402BC96DCC00FA33B0 /* AppDelegate.m in Sources */,
+				CCA807512BC96DCD00FA33B0 /* main.m in Sources */,
+				CCA807792BCA2D5900FA33B0 /* GameBoard.m in Sources */,
+				CCA807432BC96DCC00FA33B0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA807522BC96DCD00FA33B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA8075B2BC96DCD00FA33B0 /* jackCardpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA8075C2BC96DCD00FA33B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA807672BC96DCD00FA33B0 /* jackCardpUITestsLaunchTests.m in Sources */,
+				CCA807652BC96DCD00FA33B0 /* jackCardpUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA807582BC96DCD00FA33B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA8073A2BC96DCC00FA33B0 /* jackCardp */;
+			targetProxy = CCA807572BC96DCD00FA33B0 /* PBXContainerItemProxy */;
+		};
+		CCA807622BC96DCD00FA33B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA8073A2BC96DCC00FA33B0 /* jackCardp */;
+			targetProxy = CCA807612BC96DCD00FA33B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA807472BC96DCC00FA33B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA807482BC96DCC00FA33B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA8074C2BC96DCD00FA33B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA8074D2BC96DCD00FA33B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA807682BC96DCD00FA33B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCA807692BC96DCD00FA33B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA8076B2BC96DCD00FA33B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8F0025E08DB55FE311CEF5 /* Pods-jackCardp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = jackCardp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Patti Eliminate Number";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patti.game.jackCardp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CCA8076C2BC96DCD00FA33B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC28E50826F5C225CB4B2E3 /* Pods-jackCardp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = jackCardp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Patti Eliminate Number";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patti.game.jackCardp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CCA8076E2BC96DCD00FA33B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106D916FE3B3D67381352152 /* Pods-jackCardpTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = patti.game.jackCardpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jackCardp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jackCardp";
+			};
+			name = Debug;
+		};
+		CCA8076F2BC96DCD00FA33B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6234323D0C35E464D8F956ED /* Pods-jackCardpTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = patti.game.jackCardpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jackCardp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jackCardp";
+			};
+			name = Release;
+		};
+		CCA807712BC96DCD00FA33B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA74A679F6393A7C6ADED9B /* Pods-jackCardp-jackCardpUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = patti.game.jackCardpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jackCardp;
+			};
+			name = Debug;
+		};
+		CCA807722BC96DCD00FA33B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D139632BC4E5A936E923F93D /* Pods-jackCardp-jackCardpUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = patti.game.jackCardpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jackCardp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA807362BC96DCC00FA33B0 /* Build configuration list for PBXProject "jackCardp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA807682BC96DCD00FA33B0 /* Debug */,
+				CCA807692BC96DCD00FA33B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA8076A2BC96DCD00FA33B0 /* Build configuration list for PBXNativeTarget "jackCardp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA8076B2BC96DCD00FA33B0 /* Debug */,
+				CCA8076C2BC96DCD00FA33B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA8076D2BC96DCD00FA33B0 /* Build configuration list for PBXNativeTarget "jackCardpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA8076E2BC96DCD00FA33B0 /* Debug */,
+				CCA8076F2BC96DCD00FA33B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA807702BC96DCD00FA33B0 /* Build configuration list for PBXNativeTarget "jackCardpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA807712BC96DCD00FA33B0 /* Debug */,
+				CCA807722BC96DCD00FA33B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA807332BC96DCC00FA33B0 /* Project object */;
+}
