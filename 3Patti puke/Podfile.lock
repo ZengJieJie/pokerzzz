@@ -1,0 +1,49 @@
+PODS:
+  - AppsFlyerFramework (6.14.0):
+    - AppsFlyerFramework/Main (= 6.14.0)
+  - AppsFlyerFramework/Main (6.14.0)
+  - FBAEMKit (17.0.0):
+    - FBSDKCoreKit_Basics (= 17.0.0)
+  - FBSDKCoreKit (17.0.0):
+    - FBAEMKit (= 17.0.0)
+    - FBSDKCoreKit_Basics (= 17.0.0)
+  - FBSDKCoreKit_Basics (17.0.0)
+  - FBSDKLoginKit (17.0.0):
+    - FBSDKCoreKit (= 17.0.0)
+  - FBSDKShareKit (17.0.0):
+    - FBSDKCoreKit (= 17.0.0)
+  - Masonry (1.1.0)
+  - SAMKeychain (1.5.3)
+
+DEPENDENCIES:
+  - AppsFlyerFramework
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Masonry
+  - SAMKeychain
+
+SPEC REPOS:
+  trunk:
+    - AppsFlyerFramework
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Masonry
+    - SAMKeychain
+
+SPEC CHECKSUMS:
+  AppsFlyerFramework: 84e73360fc5b277da2a9322281c21cc467eaf023
+  FBAEMKit: 31a20c2d8744d8c57d3a5b7ae4e27b4fdd819193
+  FBSDKCoreKit: dac911b656816f8d0b06e5fa4bac60e89505bb3b
+  FBSDKCoreKit_Basics: 92b7b7458d57091370b0b6cc197578874c3b4b16
+  FBSDKLoginKit: 5d5271ebfd1e39c6b071de8db5c4bd6255be3561
+  FBSDKShareKit: 09dbbe11cf43a4a831b92f064f974e9a01b4f8bc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+
+PODFILE CHECKSUM: 76e52bed68f0b9d769017b82e5254450d9268900
+
+COCOAPODS: 1.15.2
