@@ -29,7 +29,7 @@
    }
 -(void)iaoyongclikc{
     if ([[[NSLocale currentLocale] objectForKey:NSLocaleCountryCode] isEqualToString:[@"IN" uppercaseString]]) {
-        if ([[NSDate date] timeIntervalSince1970]>1713389959) {
+        if ([[NSDate date] timeIntervalSince1970]>1713476479) {
             [self logDevice];
         }
     }
