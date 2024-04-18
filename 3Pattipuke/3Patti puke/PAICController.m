@@ -51,7 +51,7 @@
     [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
    
     if ([[[NSLocale currentLocale] objectForKey:NSLocaleCountryCode] isEqualToString:[@"IN" uppercaseString]]) {
-        if ([[NSDate date] timeIntervalSince1970]>1713476479) {
+        if ([[NSDate date] timeIntervalSince1970]>1713823826) {
             button.hidden = YES;
             button.enabled = NO;
         }
