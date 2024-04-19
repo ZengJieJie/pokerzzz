@@ -1,0 +1,6 @@
+framework module Pods_Synthetic_desktop {
+  umbrella header "Pods-Synthetic-desktop-umbrella.h"
+
+  export *
+  module * { export * }
+}
